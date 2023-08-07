@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6826ccc947ec7110c47623dbd36d43c1" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="choice 1 m" label="New Choice Martin" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1 m" sequence="0" value="choice 1 m"/>
+                <element inactive_on_update="false" label="-TBDVALUE-departament 2" sequence="1"/>
+                <element inactive_on_update="false" label="mmm" sequence="2" value="mmm"/>
+                <element inactive_on_update="false" label="Choice 2 m" sequence="3" value="choice 2 m"/>
+                <element inactive_on_update="false" label="Choice 3 m" sequence="4" value="choice 3 m"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed 2" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Requested" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+    </element>
+</database>

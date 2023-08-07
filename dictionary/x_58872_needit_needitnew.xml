@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fdbf10854760b110c47623dbd36d4314" label="needitNew" max_length="40" name="x_58872_needit_needitnew" type="collection">
+        <element label="label test" mandatory="true" max_length="200" name="label_test" type="string"/>
+        <element display="true" label="new row" max_length="40" name="new_row" type="string"/>
+        <element label="ok" max_length="8000" name="okok" type="script"/>
+    </element>
+</database>
